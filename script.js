@@ -1,6 +1,8 @@
 const parah = document.querySelectorAll('.box p');
 const boxes = document.querySelectorAll('.box');
 
+const button = document.querySelector('button');
+
 let count = 0;
 
 boxes.forEach((box, index) => {
@@ -17,3 +19,7 @@ boxes.forEach((box, index) => {
         }
     })
 })
+button.addEventListener('click', () => {
+    location.reload();
+})
+

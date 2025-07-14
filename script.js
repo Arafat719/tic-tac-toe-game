@@ -32,21 +32,29 @@ boxes.forEach((box, index) => {
             console.log(index);
         }
         if (parah[0].innerText === parah[1].innerText && parah[1].innerText === parah[2].innerText && parah[0].innerText !== '') {
-            updateText();
+            updateText(`the winner is ${parah[index].innerText}`);
+            console.log(`the winner is ${parah[index].innerText}`)
         } else if (parah[3].innerText === parah[4].innerText && parah[4].innerText === parah[5].innerText && parah[3].innerText !== '') {
-            updateText();
+            updateText(`the winner is ${parah[index].innerText}`);
+            console.log(`the winner is ${parah[index].innerText}`)
         } else if (parah[6].innerText === parah[7].innerText && parah[7].innerText === parah[8].innerText && parah[6].innerText !== '') {
-            updateText();
+            updateText(`the winner is ${parah[index].innerText}`);
+            console.log(`the winner is ${parah[index].innerText}`)
         } else if (parah[0].innerText === parah[3].innerText && parah[3].innerText === parah[6].innerText && parah[0].innerText !== '') {
-            updateText();
+            updateText(`the winner is ${parah[index].innerText}`);
+            console.log(`the winner is ${parah[index].innerText}`)
         } else if (parah[1].innerText === parah[4].innerText && parah[4].innerText === parah[7].innerText && parah[1].innerText !== '') {
-            updateText();
+            updateText(`the winner is ${parah[index].innerText}`);
+            console.log(`the winner is ${parah[index].innerText}`)
         } else if (parah[2].innerText === parah[5].innerText && parah[5].innerText === parah[8].innerText && parah[2].innerText !== '') {
-            updateText();
+            updateText(`the winner is ${parah[index].innerText}`);
+            console.log(`the winner is ${parah[index].innerText}`)
         } else if (parah[0].innerText === parah[4].innerText && parah[4].innerText === parah[8].innerText && parah[0].innerText !== '') {
-            updateText();
+            updateText(`the winner is ${parah[index].innerText}`);
+            console.log(`the winner is ${parah[index].innerText}`)
         } else if (parah[2].innerText === parah[4].innerText && parah[4].innerText === parah[6].innerText && parah[2].innerText !== '') {
-            updateText();
+            updateText(`the winner is ${parah[index].innerText}`);
+            console.log(`the winner is ${parah[index].innerText}`)
         }
     });
 });
